@@ -1,3 +1,4 @@
+
 pub struct Person {
     pub name:String,
     pub age:i32
@@ -34,4 +35,22 @@ impl Person {
     pub fn work(&self) -> String {
         String::from("i work")
     }
+}
+
+#[test]
+fn test() {
+    let tom = Person {
+        name: String::from("tom"),
+        age: 18
+    };
+    println!("{}", tom.speak());
+    println!("{}", tom.eat());
+    println!("{}", tom.work());
+    println!("====");
+    let jerry = Dog {
+        name: String::from("jerry"),
+        age: 2
+    };
+    println!("{}", jerry.speak());
+    println!("{}", jerry.eat());
 }
