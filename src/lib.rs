@@ -3,6 +3,7 @@ use std::error::Error;
 use std::fs;
 mod some_thing;
 mod io_demo;
+mod exercise;
 
 pub struct Config {
     pub query: String,
