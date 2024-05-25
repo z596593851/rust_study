@@ -9,5 +9,4 @@ mod tree_demo;
 mod trait2_demo;
 mod state_demo;
 mod unsafe_demo;
-mod macro_demo;
 mod thread_demo;

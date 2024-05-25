@@ -10,7 +10,8 @@ struct Point {
     y: i32,
 }
 
-fn main() {
+#[test]
+fn test() {
     let y: Option<Point> = Some(Point { x: 100, y: 200 });
 
     match y {

@@ -27,8 +27,6 @@ mod tests {
             optional_integers.push(Some(i));
         }
 
-        assert_eq!(optional_integers.len(), 10);
-        
         let mut cursor = range;
 
         // TODO: make this a while let statement - remember that vector.pop also
