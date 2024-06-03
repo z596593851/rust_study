@@ -4,6 +4,7 @@ use std::fs;
 mod some_thing;
 mod io_demo;
 mod exercise;
+mod leetcode;
 
 pub struct Config {
     pub query: String,
