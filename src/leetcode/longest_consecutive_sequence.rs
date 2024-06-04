@@ -38,7 +38,7 @@ impl Solution {
         for index in 0..list.len() {
             let index_i32 = index as i32;
             if index_i32 != 0 {
-               if list[index_i32] ==  list[index_i32 - 1] + 1 {
+               if list[index] ==  list[index - 1] + 1 {
                    count_temp += 1;
                    count = cmp::max(count, count_temp)
                } else {
