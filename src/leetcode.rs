@@ -4,3 +4,6 @@ mod longest_consecutive_sequence;
 mod three_sum;
 mod reverse_linked_list;
 mod merge_two_sorted_lists;
+mod add_two_numbers;
+mod lru;
+mod lru2;

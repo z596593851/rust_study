@@ -8,7 +8,6 @@ mod iterators;
 mod smart_pointers;
 mod threads;
 mod macros;
-mod clippy;
 mod conversions;
 mod strings;
 mod enums;
