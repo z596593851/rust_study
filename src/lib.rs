@@ -1,10 +1,11 @@
 use std::any::Any;
 use std::error::Error;
 use std::fs;
-mod some_thing;
+pub mod some_thing;
 mod io_demo;
 mod exercise;
 mod leetcode;
+mod async_demo;
 
 pub struct Config {
     pub query: String,

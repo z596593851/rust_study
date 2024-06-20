@@ -10,3 +10,6 @@ mod trait2_demo;
 mod state_demo;
 mod unsafe_demo;
 mod thread_demo;
+mod pin_test;
+mod select_test;
+mod async_test;
